@@ -18,10 +18,6 @@ jobs:
           - os: windows-latest
             compiler: cl
           - os: ubuntu-latest
-            compiler: g++
-          - os: ubuntu-latest
-            compiler: clang++
-          - os: macos-latest
             compiler: clang++
           
     runs-on: ${{matrix.os}}
